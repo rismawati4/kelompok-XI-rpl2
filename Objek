@@ -1,0 +1,26 @@
+<?php
+//PHP OOP part 2 Pengertian Class, Object, Property dan Method
+//class manusia
+class manusia{
+//property
+var $nama;
+var $warna;
+
+//method manusia
+function tampilkan_nama () {
+return "nama saya pulung_coding <br/>";
+}
+
+function warna_kulit () {
+return "Warna kulit saya hitam <br/>";
+}
+
+}
+//instansiasi class manusia 
+$manusia = new manusia () ;
+
+//memanggil method tampilkan_nama dari class manusia 
+echo $manusia->tampilkan_nama ();
+
+//memanggil method warna kulit dari class manusia 
+echo $manusia->warna_kulit ();
