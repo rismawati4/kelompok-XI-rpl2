@@ -1,0 +1,9 @@
+<?php
+//cara penulisan class dan property OOP PHP - @pulung_koding
+class mobil {     //class mobil
+var $warna;       //property warna
+var $merek;       //property merek
+var $ukuran;       //property ukuran
+
+{
+?>
